@@ -14,6 +14,8 @@ public class Main {
 		GamePanel gamePanel = new GamePanel();
 		window.add(gamePanel);
 
+		window.pack(); // ajuste les different composant a linterieur de la fenetre
+
 		window.setLocationRelativeTo(null);
 		window.setVisible(true);
 
